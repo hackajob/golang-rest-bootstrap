@@ -12,7 +12,7 @@ const (
 )
 
 func main() {
-	fmt.Println("The application has started")
+	fmt.Println("[+] The application has started")
 	
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
                 w.Header().Set("Access-Control-Allow-Origin", "*")
